@@ -21,33 +21,39 @@ a {
 }
 
 .nav-header img {
-    width: 50%;
+    width: 50vw;
     margin: auto;
+    padding: 10px;
 }
 .search-bar-one{
     display: flex;
-    margin: 15px;
+    margin: 10px;
 }
 .search-bar {
-    margin: auto;
-    margin-left: 10px;
-    width: 50%;
+   display: flex;
+   width: 50vw;
+   justify-content: flex-start;
+   background-color: white;
+   padding: 5px;
+   margin-top: 5%;
+   margin-right: 5px;
+   height: 30px;
+   border-radius: 5px;
 }
 
 .search-bar input {
-    margin: auto;
-    width: 84%;
-    padding: 3px;
-    border-radius: 5px;
+   border: none;
+   width: 90%;
+   padding: 3px;
+   font-size: 0.65rem;
+   outline: none;
 }
 
-.search-bar i {
-    padding: 1px;
-}
 
 .search-bar button {
-    margin-left: -3px;
-    padding: 2px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
 }
 
 .to-buy {
@@ -425,14 +431,12 @@ footer p {
         margin: 12px;
         width: 40%;
         display: flex;
+        margin-top: 5%;
     }
 
-    .search-bar input {
-        margin-left: -20px;
-    }
     .search-bar-one {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         margin: 15px -25px;
     }
 
@@ -680,7 +684,7 @@ footer p {
 
     .search-bar {
         margin: 12px;
-        
+        margin-top: 5%;
         display: flex;
     }
     .search-bar-format{
